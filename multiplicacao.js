@@ -1,7 +1,7 @@
-const { questionFloat } = require("readline-sync")
-
-let realizarMultiplicacao = (a, b) => {
-    return a * b;
+function realizarMultiplicacao(a, b) {
+    const multiplicacao = a * b;
+    console.log(`A multiplicacao = ${multiplicacao} \n`);
+    return multiplicacao; 
 }
 
-console.log(`A multiplicação é ${ realizarSoma}`);
+module.exports = { realizarMultiplicacao };

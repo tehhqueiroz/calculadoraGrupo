@@ -25,7 +25,7 @@ switch (opcao) {
         resultado = realizarSubtracao(a, b);
         break;
     case 3:
-        resultado = multiplicar(a, b);
+        resultado = realizarMultiplicacao(a, b);
         break;
     case 4:
         resultado = divisao(a, b);
