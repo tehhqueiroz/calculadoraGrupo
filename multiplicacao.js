@@ -4,4 +4,4 @@ let realizarMultiplicacao = (a, b) => {
     return a * b;
 }
 
-console.log(`A multiplicação é ${ realizarSoma}`);
+console.log(`A multiplicação é ${ realizarMultiplicacao}`);
