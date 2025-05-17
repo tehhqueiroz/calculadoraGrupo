@@ -1,5 +1,8 @@
 const readlineSync = require('readline-sync');
 const { realizarSoma } = require('./soma.js');
+const { divisao } = require('./divisao.js');
+const { realizarSubtracao } = require('./subtracao.js');
+const { realizarMultiplicacao } = require('./multiplicacao.js');
 
 console.log("Escolha a operação que você deseja:");
 console.log("1 - Para Somar");
